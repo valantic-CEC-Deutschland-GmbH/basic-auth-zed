@@ -2,8 +2,8 @@
 
 namespace ValanticSpryker\Zed\BasicAuth\Business;
 
-use Pyz\Zed\BasicAuth\Business\Processor\BasicAuthProcessor;
-use Pyz\Zed\BasicAuth\Business\Processor\BasicAuthProcessorInterface;
+use ValanticSpryker\Zed\BasicAuth\Business\Processor\BasicAuthProcessor;
+use ValanticSpryker\Zed\BasicAuth\Business\Processor\BasicAuthProcessorInterface;
 use Spryker\Zed\Kernel\Business\AbstractBusinessFactory;
 
 /**
