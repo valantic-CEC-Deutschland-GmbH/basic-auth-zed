@@ -17,4 +17,6 @@
             "ValanticSprykerTest\\": "tests/ValanticSprykerTest/"
         }
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
 }
