@@ -2,7 +2,7 @@
     "name": "valantic-spryker/basic-auth-zed",
     "type": "library",
     "description": "Provides basic auth to Zed layer",
-    "license": "proprietary",
+    "license": "MIT",
     "require": {
         "php": ">=7.4",
         "symfony/http-foundation": "^4.4.7 || ^5.0.7"
@@ -19,4 +19,21 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
+    "config": {
+        "gitlab-domains": [
+            "gitlab.nxs360.com"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Valantic",
+            "homepage": "https://www.valantic.com"
+        }
+    ],
+    "keywords": [
+        "spryker",
+    ],
+    "include-path": [
+        "src/"
+    ]
 }
