@@ -3,7 +3,7 @@
 namespace ValanticSpryker\Zed\BasicAuth\Business;
 
 /**
- * @method \Pyz\Zed\BasicAuth\Business\BasicAuthBusinessFactory getFactory()
+ * @method \SprykerValantic\Zed\BasicAuth\Business\BasicAuthBusinessFactory getFactory()
  */
 interface BasicAuthFacadeInterface
 {

@@ -7,12 +7,12 @@ use ValanticSpryker\Zed\BasicAuth\Business\Processor\BasicAuthProcessorInterface
 use Spryker\Zed\Kernel\Business\AbstractBusinessFactory;
 
 /**
- * @method \Pyz\Zed\BasicAuth\BasicAuthConfig getConfig()
+ * @method \ValanticSpryker\Zed\BasicAuth\BasicAuthConfig getConfig()
  */
 class BasicAuthBusinessFactory extends AbstractBusinessFactory
 {
     /**
-     * @return \Pyz\Zed\BasicAuth\Business\Processor\BasicAuthProcessorInterface
+     * @return \ValanticSpryker\Zed\BasicAuth\Business\Processor\BasicAuthProcessorInterface
      */
     public function createBasicAuthProcessor(): BasicAuthProcessorInterface
     {

@@ -3,8 +3,8 @@
 namespace ValanticSprykerTest\Zed\BasicAuth\Integration\Business\Processor;
 
 use Pyz\Shared\BasicAuth\BasicAuthConstants;
-use Pyz\Zed\BasicAuth\Business\BasicAuthFacade;
-use Pyz\Zed\BasicAuth\Business\Processor\Exception\InvalidBasicAuthConfigException;
+use ValanticSpryker\Zed\BasicAuth\Business\BasicAuthFacade;
+use ValanticSpryker\Zed\BasicAuth\Business\Processor\Exception\InvalidBasicAuthConfigException;
 use PyzTest\Shared\Base\AbstractTest;
 use PyzTest\Zed\BasicAuth\BasicAuthTester;
 

@@ -3,18 +3,18 @@
 namespace ValanticSpryker\Zed\BasicAuth\Business\Processor;
 
 use Pyz\Shared\BasicAuth\BasicAuthConstants;
-use Pyz\Zed\BasicAuth\BasicAuthConfig;
-use Pyz\Zed\BasicAuth\Business\Processor\Exception\InvalidBasicAuthConfigException;
+use ValanticSpryker\Zed\BasicAuth\BasicAuthConfig;
+use ValanticSpryker\Zed\BasicAuth\Business\Processor\Exception\InvalidBasicAuthConfigException;
 
 class BasicAuthProcessor implements BasicAuthProcessorInterface
 {
     /**
-     * @var \Pyz\Zed\BasicAuth\BasicAuthConfig
+     * @var \ValanticSpryker\Zed\BasicAuth\BasicAuthConfig
      */
     private BasicAuthConfig $config;
 
     /**
-     * @param \Pyz\Zed\BasicAuth\BasicAuthConfig $config
+     * @param \ValanticSpryker\Zed\BasicAuth\BasicAuthConfig $config
      */
     public function __construct(BasicAuthConfig $config)
     {
@@ -42,7 +42,7 @@ class BasicAuthProcessor implements BasicAuthProcessorInterface
     }
 
     /**
-     * @throws \Pyz\Zed\BasicAuth\Business\Processor\Exception\InvalidBasicAuthConfigException
+     * @throws \ValanticSpryker\Zed\BasicAuth\Business\Processor\Exception\InvalidBasicAuthConfigException
      *
      * @return void
      */

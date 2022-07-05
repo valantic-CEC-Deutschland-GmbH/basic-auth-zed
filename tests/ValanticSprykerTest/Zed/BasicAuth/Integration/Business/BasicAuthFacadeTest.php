@@ -3,7 +3,7 @@
 namespace ValanticSprykerTest\Zed\BasicAuth\Integration\Business;
 
 use Pyz\Shared\BasicAuth\BasicAuthConstants;
-use Pyz\Zed\BasicAuth\Business\BasicAuthFacade;
+use ValanticSpryker\Zed\BasicAuth\Business\BasicAuthFacade;
 use PyzTest\Shared\Base\AbstractTest;
 use PyzTest\Zed\BasicAuth\BasicAuthTester;
 

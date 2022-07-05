@@ -5,7 +5,7 @@ namespace ValanticSpryker\Zed\BasicAuth\Business;
 use Spryker\Zed\Kernel\Business\AbstractFacade;
 
 /**
- * @method \Pyz\Zed\BasicAuth\Business\BasicAuthBusinessFactory getFactory()
+ * @method \ValanticSpryker\Zed\BasicAuth\Business\BasicAuthBusinessFactory getFactory()
  */
 class BasicAuthFacade extends AbstractFacade implements BasicAuthFacadeInterface
 {

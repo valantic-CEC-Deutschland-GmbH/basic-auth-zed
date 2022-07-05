@@ -15,8 +15,8 @@ use Symfony\Component\HttpKernel\Event\RequestEvent;
 use Symfony\Component\HttpKernel\KernelEvents;
 
 /**
- * @method \Pyz\Zed\BasicAuth\Business\BasicAuthFacade getFacade()
- * @method \Pyz\Zed\BasicAuth\BasicAuthConfig getConfig()
+ * @method \ValanticSpryker\Zed\BasicAuth\Business\BasicAuthFacade getFacade()
+ * @method \ValanticSpryker\Zed\BasicAuth\BasicAuthConfig getConfig()
  */
 class BasicAuthEventDispatcherPlugin extends AbstractPlugin implements EventDispatcherPluginInterface
 {

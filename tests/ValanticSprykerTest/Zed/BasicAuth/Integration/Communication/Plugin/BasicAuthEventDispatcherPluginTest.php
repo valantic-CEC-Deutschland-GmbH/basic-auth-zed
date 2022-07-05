@@ -4,8 +4,8 @@ namespace ValanticSprykerTest\Zed\BasicAuth\Integration\Communication\Plugin;
 
 use Codeception\Util\HttpCode;
 use Mockery;
-use Pyz\Zed\BasicAuth\Business\BasicAuthFacade;
-use Pyz\Zed\BasicAuth\Communication\Plugin\BasicAuthEventDispatcherPlugin;
+use ValanticSpryker\Zed\BasicAuth\Business\BasicAuthFacade;
+use ValanticSpryker\Zed\BasicAuth\Communication\Plugin\BasicAuthEventDispatcherPlugin;
 use PyzTest\Shared\Base\AbstractTest;
 use Spryker\Shared\EventDispatcher\EventDispatcher;
 use Spryker\Zed\Kernel\Container;
