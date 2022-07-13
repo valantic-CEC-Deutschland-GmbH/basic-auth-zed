@@ -2,7 +2,6 @@
 
 namespace ValanticSpryker\Zed\BasicAuth\Communication\Plugin;
 
-use Pyz\Shared\BasicAuth\BasicAuthConstants;
 use Spryker\Service\Container\ContainerInterface;
 use Spryker\Shared\EventDispatcher\EventDispatcherInterface;
 use Spryker\Shared\EventDispatcherExtension\Dependency\Plugin\EventDispatcherPluginInterface;
@@ -13,6 +12,7 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Event\RequestEvent;
 use Symfony\Component\HttpKernel\KernelEvents;
+use ValanticSpryker\Shared\BasicAuth\BasicAuthConstants;
 
 /**
  * @method \ValanticSpryker\Zed\BasicAuth\Business\BasicAuthFacade getFacade()

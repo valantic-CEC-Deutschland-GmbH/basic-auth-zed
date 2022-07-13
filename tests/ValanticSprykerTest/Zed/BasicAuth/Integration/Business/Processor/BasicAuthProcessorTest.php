@@ -2,18 +2,21 @@
 
 namespace ValanticSprykerTest\Zed\BasicAuth\Integration\Business\Processor;
 
-use Pyz\Shared\BasicAuth\BasicAuthConstants;
+use Codeception\Test\Unit;
+use ValanticSpryker\Shared\BasicAuth\BasicAuthConstants;
 use ValanticSpryker\Zed\BasicAuth\Business\BasicAuthFacade;
 use ValanticSpryker\Zed\BasicAuth\Business\Processor\Exception\InvalidBasicAuthConfigException;
-use PyzTest\Shared\Base\AbstractTest;
-use PyzTest\Zed\BasicAuth\BasicAuthTester;
+use ValanticSprykerTest\Zed\BasicAuth\BasicAuthTester;
 
 /**
  * @group Integration
  * @group BasicAuth
  */
-class BasicAuthProcessorTest extends AbstractTest
+class BasicAuthProcessorTest extends Unit
 {
+    /**
+     * @var \ValanticSprykerTest\Zed\BasicAuth\BasicAuthTester
+     */
     protected BasicAuthTester $tester;
 
     /**

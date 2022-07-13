@@ -2,8 +2,8 @@
 
 namespace ValanticSpryker\Zed\BasicAuth;
 
-use Pyz\Shared\BasicAuth\BasicAuthConstants;
 use Spryker\Zed\Kernel\AbstractBundleConfig;
+use ValanticSpryker\Shared\BasicAuth\BasicAuthConstants;
 
 class BasicAuthConfig extends AbstractBundleConfig
 {

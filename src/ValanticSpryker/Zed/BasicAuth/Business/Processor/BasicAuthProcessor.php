@@ -2,7 +2,7 @@
 
 namespace ValanticSpryker\Zed\BasicAuth\Business\Processor;
 
-use Pyz\Shared\BasicAuth\BasicAuthConstants;
+use ValanticSpryker\Shared\BasicAuth\BasicAuthConstants;
 use ValanticSpryker\Zed\BasicAuth\BasicAuthConfig;
 use ValanticSpryker\Zed\BasicAuth\Business\Processor\Exception\InvalidBasicAuthConfigException;
 

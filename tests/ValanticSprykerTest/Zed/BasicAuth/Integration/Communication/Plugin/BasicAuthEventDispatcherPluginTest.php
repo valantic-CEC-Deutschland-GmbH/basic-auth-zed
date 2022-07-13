@@ -2,11 +2,11 @@
 
 namespace ValanticSprykerTest\Zed\BasicAuth\Integration\Communication\Plugin;
 
+use Codeception\Test\Unit;
 use Codeception\Util\HttpCode;
 use Mockery;
 use ValanticSpryker\Zed\BasicAuth\Business\BasicAuthFacade;
 use ValanticSpryker\Zed\BasicAuth\Communication\Plugin\BasicAuthEventDispatcherPlugin;
-use PyzTest\Shared\Base\AbstractTest;
 use Spryker\Shared\EventDispatcher\EventDispatcher;
 use Spryker\Zed\Kernel\Container;
 use Symfony\Component\HttpFoundation\JsonResponse;
@@ -17,7 +17,7 @@ use Symfony\Component\HttpKernel\Event\RequestEvent;
  * @group Integration
  * @group BasicAuth
  */
-class BasicAuthEventDispatcherPluginTest extends AbstractTest
+class BasicAuthEventDispatcherPluginTest extends Unit
 {
     /**
      * @return void

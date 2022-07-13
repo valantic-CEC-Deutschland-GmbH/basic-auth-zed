@@ -2,16 +2,16 @@
 
 namespace ValanticSprykerTest\Zed\BasicAuth\Integration\Business;
 
-use Pyz\Shared\BasicAuth\BasicAuthConstants;
+use Codeception\Test\Unit;
+use ValanticSprykerTest\Zed\BasicAuth\BasicAuthTester;
+use ValanticSpryker\Shared\BasicAuth\BasicAuthConstants;
 use ValanticSpryker\Zed\BasicAuth\Business\BasicAuthFacade;
-use PyzTest\Shared\Base\AbstractTest;
-use PyzTest\Zed\BasicAuth\BasicAuthTester;
 
 /**
  * @group Integration
  * @group BasicAuth
  */
-class BasicAuthFacadeTest extends AbstractTest
+class BasicAuthFacadeTest extends Unit
 {
     protected BasicAuthTester $tester;
 
