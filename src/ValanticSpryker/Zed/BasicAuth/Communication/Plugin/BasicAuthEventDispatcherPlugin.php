@@ -86,7 +86,7 @@ class BasicAuthEventDispatcherPlugin extends AbstractPlugin implements EventDisp
     {
         $responseMessage= BasicAuthConstants::UNAUTHORIZED_ACCESS . ': ' . $request->getSchemeAndHttpHost();
         $headers = [
-            'WWW_Authenticate' => 'true'
+            'WWW-Authenticate' => 'Basic'
         ];
         $response = new JsonResponse($responseMessage, Response::HTTP_UNAUTHORIZED, $headers);
 
