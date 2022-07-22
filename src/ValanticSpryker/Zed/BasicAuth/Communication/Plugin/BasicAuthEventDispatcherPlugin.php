@@ -85,8 +85,13 @@ class BasicAuthEventDispatcherPlugin extends AbstractPlugin implements EventDisp
     private function getErrorResponse(Request $request): JsonResponse
     {
         $responseMessage= BasicAuthConstants::UNAUTHORIZED_ACCESS . ': ' . $request->getSchemeAndHttpHost();
+        $headers = [
+            'WWW-Authenticate' => 'Basic',
+            'WWW_Authenticate' => 'Authentication information is missing or invalid',
+        ];
+        $response = new JsonResponse($responseMessage, Response::HTTP_UNAUTHORIZED, $headers);
 
-        return new JsonResponse($responseMessage, Response::HTTP_UNAUTHORIZED);
+        return $response;
     }
 
     /**
