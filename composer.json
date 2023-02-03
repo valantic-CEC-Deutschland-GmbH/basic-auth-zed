@@ -4,7 +4,7 @@
     "description": "Provides basic auth to Zed layer",
     "license": "MIT",
     "require": {
-        "php": ">=7.4",
+        "php": ">=8.0",
         "symfony/http-foundation": "^5.4.0 || ^6.0.0",
         "spryker/log": "^3.13"
     },
