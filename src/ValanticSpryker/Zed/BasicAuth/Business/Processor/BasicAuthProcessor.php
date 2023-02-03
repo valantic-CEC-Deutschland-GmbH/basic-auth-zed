@@ -1,4 +1,6 @@
-<?php declare(strict_types = 1);
+<?php
+
+declare(strict_types = 1);
 
 namespace ValanticSpryker\Zed\BasicAuth\Business\Processor;
 
@@ -57,14 +59,14 @@ class BasicAuthProcessor implements BasicAuthProcessorInterface
                     $routeConfig[BasicAuthConstants::ROUTE_CONFIG_KEY_CONTROLLER],
                     $routeConfig[BasicAuthConstants::ROUTE_CONFIG_KEY_ACTION],
                     $routeConfig[BasicAuthConstants::ROUTE_CONFIG_KEY_USERNAME],
-                    $routeConfig[BasicAuthConstants::ROUTE_CONFIG_KEY_PASSWORD]
+                    $routeConfig[BasicAuthConstants::ROUTE_CONFIG_KEY_PASSWORD],
                 )
             ) {
                 throw new InvalidBasicAuthConfigException(
                     sprintf(
                         'Basic auth configuration with name "%s" misses one or more config entries.',
-                        $routeConfigName
-                    )
+                        $routeConfigName,
+                    ),
                 );
             }
         }

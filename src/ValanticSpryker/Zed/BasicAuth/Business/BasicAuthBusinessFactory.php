@@ -1,10 +1,12 @@
-<?php declare(strict_types = 1);
+<?php
+
+declare(strict_types = 1);
 
 namespace ValanticSpryker\Zed\BasicAuth\Business;
 
+use Spryker\Zed\Kernel\Business\AbstractBusinessFactory;
 use ValanticSpryker\Zed\BasicAuth\Business\Processor\BasicAuthProcessor;
 use ValanticSpryker\Zed\BasicAuth\Business\Processor\BasicAuthProcessorInterface;
-use Spryker\Zed\Kernel\Business\AbstractBusinessFactory;
 
 /**
  * @method \ValanticSpryker\Zed\BasicAuth\BasicAuthConfig getConfig()

@@ -1,4 +1,6 @@
-<?php declare(strict_types = 1);
+<?php
+
+declare(strict_types = 1);
 
 namespace ValanticSpryker\Zed\BasicAuth\Communication\Plugin;
 
@@ -73,7 +75,7 @@ class BasicAuthEventDispatcherPlugin extends AbstractPlugin implements EventDisp
                 'controller' => $request->attributes->get('controller'),
                 'action' => $request->attributes->get('action'),
                 'username' => $request->getUser(),
-            ]
+            ],
         );
     }
 
@@ -84,7 +86,7 @@ class BasicAuthEventDispatcherPlugin extends AbstractPlugin implements EventDisp
      */
     private function getErrorResponse(Request $request): JsonResponse
     {
-        $responseMessage= BasicAuthConstants::UNAUTHORIZED_ACCESS . ': ' . $request->getSchemeAndHttpHost();
+        $responseMessage = BasicAuthConstants::UNAUTHORIZED_ACCESS . ': ' . $request->getSchemeAndHttpHost();
 
         return new JsonResponse($responseMessage, Response::HTTP_UNAUTHORIZED);
     }
@@ -103,7 +105,7 @@ class BasicAuthEventDispatcherPlugin extends AbstractPlugin implements EventDisp
             $request->attributes->get('controller'),
             $request->attributes->get('action'),
             $request->getUser(),
-            $request->getPassword()
+            $request->getPassword(),
         );
     }
 }

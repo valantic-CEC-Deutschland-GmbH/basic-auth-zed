@@ -1,19 +1,25 @@
 <?php declare(strict_types = 1);
 
-namespace ValanticSprykerTest\Zed\BasicAuth\Integration\Business;
+namespace ValanticSprykerTest\Zed\BasicAuth\Business;
 
 use Codeception\Test\Unit;
-use ValanticSprykerTest\Zed\BasicAuth\BasicAuthTester;
 use ValanticSpryker\Shared\BasicAuth\BasicAuthConstants;
 use ValanticSpryker\Zed\BasicAuth\Business\BasicAuthFacade;
+use ValanticSprykerTest\Zed\BasicAuth\BasicAuthBusinessTester;
 
 /**
- * @group Integration
+ * @group ValanticSprykerTest
+ * @group Zed
  * @group BasicAuth
+ * @group Business
+ * @group BasicAuthFacadeTest
  */
 class BasicAuthFacadeTest extends Unit
 {
-    protected BasicAuthTester $tester;
+    /**
+     * @var BasicAuthBusinessTester
+     */
+    protected BasicAuthBusinessTester $tester;
 
     /**
      * @return array

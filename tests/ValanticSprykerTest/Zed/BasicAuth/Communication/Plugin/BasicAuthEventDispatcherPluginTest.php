@@ -1,21 +1,25 @@
 <?php declare(strict_types = 1);
 
-namespace ValanticSprykerTest\Zed\BasicAuth\Integration\Communication\Plugin;
+namespace ValanticSprykerTest\Zed\BasicAuth\Communication\Plugin;
 
 use Codeception\Test\Unit;
 use Codeception\Util\HttpCode;
 use Mockery;
-use ValanticSpryker\Zed\BasicAuth\Business\BasicAuthFacade;
-use ValanticSpryker\Zed\BasicAuth\Communication\Plugin\BasicAuthEventDispatcherPlugin;
 use Spryker\Shared\EventDispatcher\EventDispatcher;
 use Spryker\Zed\Kernel\Container;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpKernel\Event\RequestEvent;
+use ValanticSpryker\Zed\BasicAuth\Business\BasicAuthFacade;
+use ValanticSpryker\Zed\BasicAuth\Communication\Plugin\BasicAuthEventDispatcherPlugin;
 
 /**
- * @group Integration
+ * @group ValanticSprykerTest
+ * @group Zed
  * @group BasicAuth
+ * @group Communication
+ * @group Plugin
+ * @group BasicAuthEventDispatcherPluginTest
  */
 class BasicAuthEventDispatcherPluginTest extends Unit
 {

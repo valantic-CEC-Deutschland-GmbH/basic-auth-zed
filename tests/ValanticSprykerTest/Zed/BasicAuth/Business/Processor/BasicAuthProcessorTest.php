@@ -1,23 +1,27 @@
 <?php declare(strict_types = 1);
 
-namespace ValanticSprykerTest\Zed\BasicAuth\Integration\Business\Processor;
+namespace ValanticSprykerTest\Zed\BasicAuth\Business\Processor;
 
 use Codeception\Test\Unit;
 use ValanticSpryker\Shared\BasicAuth\BasicAuthConstants;
 use ValanticSpryker\Zed\BasicAuth\Business\BasicAuthFacade;
 use ValanticSpryker\Zed\BasicAuth\Business\Processor\Exception\InvalidBasicAuthConfigException;
-use ValanticSprykerTest\Zed\BasicAuth\BasicAuthTester;
+use ValanticSprykerTest\Zed\BasicAuth\BasicAuthBusinessTester;
 
 /**
- * @group Integration
+ * @group ValanticSprykerTest
+ * @group Zed
  * @group BasicAuth
+ * @group Business
+ * @group Processor
+ * @group BasicAuthProcessorTest
  */
 class BasicAuthProcessorTest extends Unit
 {
     /**
-     * @var \ValanticSprykerTest\Zed\BasicAuth\BasicAuthTester
+     * @var BasicAuthBusinessTester
      */
-    protected BasicAuthTester $tester;
+    protected BasicAuthBusinessTester $tester;
 
     /**
      * @return array
