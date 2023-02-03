@@ -48,12 +48,13 @@
         "codeception/module-asserts": "^3.0",
         "mockery/mockery": "^1.5",
         "spryker/event-dispatcher": "^1.3",
-        "codeception/lib-innerbrowser": "^3.1"
+        "codeception/lib-innerbrowser": "^3.1",
+        "spryker/development": "^3.34"
     },
     "scripts": {
         "cs-check": "phpcs -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml --report=full src",
         "cs-fix": "phpcbf --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src",
-        "md-check": "phpmd src/ text phpmd-ruleset.xml --minimumpriority 2",
+        "md-check": "phpmd src/ text vendor/spryker/development/resources/phpmd/ruleset.xml --minimumpriority 2",
         "test": "vendor/bin/codecept run"
     }
 }
