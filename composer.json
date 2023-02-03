@@ -23,7 +23,10 @@
     "config": {
         "gitlab-domains": [
             "gitlab.nxs360.com"
-        ]
+        ],
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
     },
     "authors": [
         {
