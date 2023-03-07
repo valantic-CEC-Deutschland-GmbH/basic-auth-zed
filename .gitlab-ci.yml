@@ -4,4 +4,3 @@ include:
   - project: packages/php/spryker/example-package
     ref: master
     file: .gitlab-ci.yml
-
