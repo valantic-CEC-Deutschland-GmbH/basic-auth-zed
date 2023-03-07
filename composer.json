@@ -48,7 +48,7 @@
         "spryker/architecture-sniffer": "*",
         "spryker/code-sniffer": "*",
         "spryker/development": "*",
-        "spryker/testify": "*"
+        "spryker/testify": "*",
         "codeception/module-asserts": "^3.0",
         "mockery/mockery": "^1.5",
         "spryker/event-dispatcher": "^1.3",
