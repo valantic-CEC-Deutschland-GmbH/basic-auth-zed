@@ -1,23 +1,40 @@
-namespace: BasicAuth
-actor: Tester
+namespace: ValanticSpryker
 
-include:
-    - tests/ValanticSprykerTest/Zed/BasicAuth
-
-paths:
-    tests: tests
-    output: tests/_output
-    data: tests/_data
-    support: tests/_support
-    envs: tests/_envs
+suites:
+  unit:
+    path: .
 
 settings:
-    suite_class: \PHPUnit_Framework_TestSuite
-    colors: true
-    memory_limit: 2048M
-    log: true
-    lint: false
+  shuffle: true
+  lint: true
+
+bootstrap: _bootstrap.php
+
+paths:
+  tests: tests
+  output: tests/_output
+  support: tests/_support
+  data: tests/_data
 
 coverage:
-    enabled: false
-    whitelist: { include: ['src/*'] }
+  enabled: true
+  include:
+    - src/ValanticSpryker/*.php
+
+modules:
+  enabled:
+    - \FondOfCodeception\Module\Spryker
+  config:
+    \FondOfCodeception\Module\Spryker:
+      generate_transfer: false
+      generate_map_classes: false
+      generate_propel_classes: false
+
+env:
+  standalone:
+    modules:
+      config:
+        \FondOfCodeception\Module\Spryker:
+          generate_transfer: true
+          generate_map_classes: true
+          generate_propel_classes: true
