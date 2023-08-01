@@ -6,7 +6,7 @@
  - Provides basic auth to Zed layer
 
 # Install
-- `composer require valantic-cec/basic-auth-zed`
+- `composer require valantic-spryker/basic-auth-zed`
 
 # HowTos
 
