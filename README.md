@@ -1,14 +1,12 @@
 # stores-rest-api
 
 [![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%208.0-8892BF.svg)](https://php.net/)
-[![coverage report](https://gitlab.nxs360.com/packages/php/spryker/basic-auth-zed/badges/master/pipeline.svg)](https://gitlab.nxs360.com/packages/php/spryker/basic-auth-zed/-/pipelines?page=1&scope=all&ref=master)
-[![coverage report](https://gitlab.nxs360.com/packages/php/spryker/basic-auth-zed/badges/master/coverage.svg)](https://packages.gitlab-pages.nxs360.com/php/spryker/basic-auth-zed)
 
 # Description
  - Provides basic auth to Zed layer
 
 # Install
-- https://gitlab.nxs360.com/groups/packages/php/spryker/-/packages
+- `composer require valantic-cec/basic-auth-zed`
 
 # Reference implementation
 - https://gitlab.nxs360.com/team-lr/glue-api
