@@ -2,7 +2,7 @@
     "name": "valantic-cec/basic-auth-zed",
     "type": "library",
     "description": "Provides basic auth to Zed layer",
-    "license": "MIT",
+    "license": "proprietary",
     "require": {
         "php": ">=8.0",
         "symfony/http-foundation": ">=5.4.0",
