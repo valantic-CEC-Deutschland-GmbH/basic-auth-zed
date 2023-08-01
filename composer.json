@@ -1,5 +1,5 @@
 {
-    "name": "valantic-cec/basic-auth-zed",
+    "name": "valantic-spryker/basic-auth-zed",
     "type": "library",
     "description": "Provides basic auth to Zed layer",
     "license": "proprietary",
