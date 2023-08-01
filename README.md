@@ -8,9 +8,6 @@
 # Install
 - `composer require valantic-cec/basic-auth-zed`
 
-# Reference implementation
-- https://gitlab.nxs360.com/team-lr/glue-api
-
 # HowTos
 
 PHP Container: `docker run -it --rm --name my-running-script -v "$PWD":/data spryker/php:latest bash`
