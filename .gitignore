@@ -5,6 +5,8 @@ nbproject/
 .buildpath/
 .settings/
 *.sublime-*
+src/Generated/*
+src/Orm/*
 
 # OS
 .DS_Store
