@@ -6,7 +6,8 @@
     "require": {
         "php": ">=8.0",
         "symfony/http-foundation": ">=5.4.0",
-        "spryker/log": ">=3.13"
+        "spryker/log": ">=3.13",
+        "spryker/store": "1.18.1"
     },
     "autoload": {
       "psr-4": {
